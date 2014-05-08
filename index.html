@@ -1,0 +1,416 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+      <meta charset="utf-8">
+      <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+      <title>wedding</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+      <!-- build:css(.tmp) styles/main.css -->
+      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css">
+      <link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
+      <!-- endbuild -->
+
+      <!-- build:js scripts/vendor/modernizr.js -->
+      <script src="scripts/vendor/modernizr.js"></script>
+      <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="#home"><img src='./images/logo.png' width="50"></a> -->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#accomm">Accommodation</a></li>
+          <li><a href="#rsvp">R S V P</a></li>
+          <!-- <li><a href="#slide7">Gifts</a></li> -->
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+
+
+    <!-- Home -->
+    <div class="scrollSlide home text-center" id="home">
+      <h1 class="dotted">Catherine &amp; Rory are getting married</h1>
+      <h1 class="date">Saturday 16th August 2014</h1>
+      <h1 class="castleHeading">Waterford Castle</h1>
+      <a class="button" href="#schedule" title=""></a>
+    </div>
+    <!--End Home-->
+
+    <!-- Schedule -->
+    <div class="scrollSlide schedule" id="schedule" data-stellar-background-ratio="0.5">
+      <span class="slideno">Schedule</span>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h3 class="panel-title">Friday 15th August <small>Optional</small></h3>
+        </div>
+        <div class="panel-body">
+          <div class="scheduleItem">
+            <h4>7.00pm - Lodges at Waterford Castle</h4>
+            <p>Causal drinks in the lodges</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h3 class="panel-title">Saturday 16th August</h3>
+        </div>
+        <div class="panel-body">
+          <div class="scheduleItem">
+            <h4>1.00pm - Waterford Castle</h4>
+            <p>Ceremony outside (weather permitting)</p>
+          </div>
+          <hr>
+          <div class="scheduleItem">
+            <h4>2.00pm - Waterford Castle</h4>
+            <p>Reception Drinks &amp; Canapes</p>
+            <p>Games on the croquet lawn (weather permitting)</p>
+          </div>
+          <hr>
+          <div class="scheduleItem">
+            <h4>6.30pm - Waterford Castle</h4>
+            <p>Dinner</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h3 class="panel-title">Sunday 17th August <small>Optional</small></h3>
+        </div>
+        <div class="panel-body">
+          <div class="scheduleItem">
+            <h4>1.00pm - Waterford Castle</h4>
+            <p>Barbeque</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="button" href="#venue" title=""></a>
+    </div>
+    <!--End Schedule-->
+
+
+
+
+    <!-- Venue -->
+    <div class="scrollSlide venue" id="venue" data-stellar-background-ratio="0.5">
+      <span class="slideno">Venue</span>
+      <h1>Waterford Castle</h1>
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mapModal">
+        View Map
+      </button>
+      <a class="button" href="#accomm" title=""></a>
+
+    </div>
+    <!--End Venue-->
+
+
+    <!-- Accommodation -->
+    <div class="scrollSlide accomm" id="accomm" data-stellar-background-ratio="0">
+      <div class="container accomBack">
+        <h2>Castle or Lodge</h2>
+        <p>There are two options for accommodation for the weekend. For those only staying just the saturday night the castle has a number of very luxurious rooms. For those staying two nights it is better to stay in the lodges.</p>
+
+        <div class="col-sm-6">
+          <h3>The Castle</h3>
+          <a data-toggle="modal" data-target="#castleModal"><img src="./images/castle1.jpg" class="accommImage"></a>
+          <p>The ceremony and reception will be taking place in the castle. There are a number of different room types available:
+            <ul>
+              <li>Suite - €210</li>
+              <li>Superior - €200</li>
+              <li>Deluxe - €180</li>
+              <li>Standard - €165</li>
+            </ul>
+          </p>
+          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#castleModal">
+            View Rooms
+          </button>
+        </div>
+
+        <div class="col-sm-6">
+
+          <h3>The Lodges</h3>
+          <a data-toggle="modal" data-target="#lodgeModal" data-local="#lodgeCarousel"><img src="./images/lodge1.jpg" class="accommImage"></a>
+          <p>The lodges are approximately 10 minutes walk from the castle. Each lodge contains three bedrooms.</p>
+
+          <p>The lodges cost €120 - €175 per room for two nights, depending on whether there are two or three rooms occupied.</p>
+
+          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#lodgeModal" data-local="#lodgeCarousel">
+            View Lodges
+          </button>
+        </div>
+      </div>
+
+      <span class="slideno">Accommodation</span>
+      <a class="button" href="#rsvp" title=""></a>
+
+    </div>
+    <!--End Accommodation-->
+
+    <!-- RSVP -->
+    <div class="scrollSlide rsvp" id="rsvp" data-stellar-background-ratio="0">
+      <iframe src="https://docs.google.com/forms/d/1bLSpZwWG3uve-SYKEYtq-7qnt4Wm6SbSVZWTj86Ppb8/viewform?embedded=true" height="830" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <span class="slideno">RSVP</span>
+
+    </div>
+    <!--End RSVP-->
+
+
+    <!-- MODALS -->
+<!--     <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="map" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="map">Waterford Castle</h4>
+          </div>
+          <div class="modal-body">
+
+            <iframe class="mapSize" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ie/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waterford+castle&amp;sll=53.3834,-8.21775&amp;sspn=12.680683,19.753418&amp;ie=UTF8&amp;hq=waterford+castle&amp;hnear=&amp;t=m&amp;ll=52.253341,-7.05924&amp;spn=0.071946,0.071946&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ie/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=waterford+castle&amp;sll=53.3834,-8.21775&amp;sspn=12.680683,19.753418&amp;ie=UTF8&amp;hq=waterford+castle&amp;hnear=&amp;t=m&amp;ll=52.253341,-7.05924&amp;spn=0.071946,0.071946" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- /.modal -->
+
+
+    <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="map" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="map">Waterford Castle</h4>
+          </div>
+          <div class="modal-body" id="mapModalBody">
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+            <div id="map-canvas" class="map_canvas"></div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <div class="modal fade" id="castleModal" tabindex="-1" role="dialog" aria-labelledby="castle" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="castle">Waterford Castle Rooms</h4>
+          </div>
+          <div class="modal-body">
+            <div id="accommodationCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#accommodationCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#accommodationCarousel" data-slide-to="1"></li>
+                <li data-target="#accommodationCarousel" data-slide-to="2"></li>
+                <li data-target="#accommodationCarousel" data-slide-to="3"></li>
+                <li data-target="#accommodationCarousel" data-slide-to="4"></li>
+                <li data-target="#accommodationCarousel" data-slide-to="5"></li>
+                <li data-target="#accommodationCarousel" data-slide-to="6"></li>
+                <li data-target="#accommodationCarousel" data-slide-to="7"></li>
+                <li data-target="#accommodationCarousel" data-slide-to="8"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="./images/castle1.jpg" alt="">
+                  <div class="carousel-caption">
+                    The exterior of the castle
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/castle2.jpg" alt="">
+                  <div class="carousel-caption">
+                    Suite
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/castle3.jpg" alt="">
+                  <div class="carousel-caption">
+                    Suite
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/castle4.jpg" alt="">
+                  <div class="carousel-caption">
+                    Deluxe Room
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/castle5.jpg" alt="">
+                  <div class="carousel-caption">
+                    Standard Room
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/castle6.jpg" alt="">
+                  <div class="carousel-caption">
+                    Blurry Bathrooms
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/castle7.jpg" alt="">
+                  <div class="carousel-caption">
+                    Flowers
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/castle8.jpg" alt="">
+                  <div class="carousel-caption">
+                    Castle Features
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/castle9.jpg" alt="">
+                  <div class="carousel-caption">
+                    Castle Features
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#castleModal" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#castleModal" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <div class="modal fade" id="lodgeModal" tabindex="-1" role="dialog" aria-labelledby="lodge" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="lodge">Waterford Castle Lodges</h4>
+          </div>
+          <div class="modal-body">
+            <div id="lodgeCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#lodgeCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#lodgeCarousel" data-slide-to="1"></li>
+                <li data-target="#lodgeCarousel" data-slide-to="2"></li>
+                <li data-target="#lodgeCarousel" data-slide-to="3"></li>
+                <li data-target="#lodgeCarousel" data-slide-to="4"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="./images/lodge1.jpg" alt="">
+                  <div class="carousel-caption">
+                    The exterior of the lodge
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/lodge2.jpg" alt="">
+                  <div class="carousel-caption">
+                    Sitting Room
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/lodge3.jpg" alt="">
+                  <div class="carousel-caption">
+                    Looking into the kitchen
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/lodge4.jpg" alt="">
+                  <div class="carousel-caption">
+                    Bedroom
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="./images/lodge5.jpg" alt="">
+                  <div class="carousel-caption">
+                    Outside table
+                  </div>
+                </div>
+              </div>
+              <!-- Controls -->
+              <a class="left carousel-control" href="#lodgeModal" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#lodgeModal" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    //     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    //     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    //     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    //     e.src='//www.google-analytics.com/analytics.js';
+    //     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    //     ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/vendor/matchMedia.js"></script>
+    <script src="scripts/vendor/picturefill.js"></script>
+    <script src="scripts/vendor/jquery.stellar.min.js"></script>
+    <script src="scripts/vendor/jquery.scrollTo.min.js"></script>
+    <script src="scripts/vendor/bootstrap.min.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

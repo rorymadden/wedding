@@ -1,0 +1,278 @@
+body {
+    background: #fafafa;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #333;
+    padding-top: 30px;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.scrollSlide{
+  background-attachment: fixed;
+  width:100%;
+  height:100%;
+  position: relative;
+  padding: 150px 50px;
+  min-height:800px;
+  /*box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
+}
+/*.wrapper{
+  width:960px;
+  height:200px;
+  margin:0 auto;
+  position:relative;
+}*/
+.slideno{
+  position:absolute;
+  padding-top: 20px;
+  top:0px;
+  /*left:0px;*/
+  font-weight:bold;
+  color:rgba(51,51,51,0.5);
+}
+.button{
+  display:block;
+  width:50px;
+  height:50px;
+  position:absolute;
+  bottom:0px;
+  left:50%;
+  background-color:#333333;
+  background-image:url(../images/arrow.png);
+}
+.button:hover{
+  background-color:#494949;
+  cursor:pointer;
+}
+
+.navbar {
+  /*background: rgba(0,0,0,0.5);;*/
+  font-family: 'Edwardian Script ITC', cursive;
+  font-size: 25px;
+}
+
+/******************************
+ HOME
+*******************************/
+
+.home{
+  /*background-image:url(../images/sized/fancy-large.jpg);*/
+  /*background-attachment: fixed;*/
+  /*min-height: 700px;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.home h1.dotted {
+  font-family: 'Codystar';
+  /*padding-top:40px;*/
+}
+.home h1.date {
+  font-family: 'Helvetica';
+}
+
+.home h1.castleHeading {
+  font-family: 'Edwardian Script ITC';
+  font-size: 60px;
+  /*padding-top:40px;*/
+}
+/******************************
+ SCHEDULE
+*******************************/
+.schedule{
+  /*background-image:url(../images/diary.png);*/
+  background-color:#FAE8C5;
+  /*filter: grayscale(100%);*/
+}
+
+/******************************
+ VENUE
+*******************************/
+.venue{
+  background-color:#eeeeee;
+}
+
+.map_canvas {
+  margin: 0;
+  padding: 0;
+  height: 600px;
+}
+/*
+.venue  h1 {
+  color: black;
+}*/
+
+/******************************
+ ACCOMMODATION
+*******************************/
+.accomm{
+  background-color:#fff1df;
+  /*background-image:url(../images/schedule.png);*/
+}
+
+.accomBack {
+  background-color:rgba(255,255,255,0.8);
+  padding-bottom: 20px;
+  /*background-color: #fff;
+  opacity: 0.4;*/
+}
+
+/******************************
+ RSVP
+*******************************/
+.rsvp{
+
+}
+.rsvp iframe {
+  display: block;
+  margin:0 auto;
+}
+
+
+/*Responsive background image */
+
+/*@media (min-width: 300px) {
+  .home{
+    background:url(../images/sized/fancy-small.jpg)  no-repeat center center fixed;
+    min-height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .venue{
+    background-image:url(../images/sized/venue-small.png);
+    min-height: 700px;
+  }
+}*/
+
+.accommImage {
+  /*filter: grayscale(100%);*/
+}
+
+@media (min-width: 300px) {
+  .home{
+    background:url(../images/sized/fancy-medium.jpg)  no-repeat center center fixed;
+    min-height:500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .rsvp{
+    background:url(../images/sized/justMarried-medium.jpg)  no-repeat center center fixed;
+    min-height:500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .venue{
+    /*background:url(../images/sized/castle-medium.jpg)  no-repeat center center fixed;*/
+    background:#fcfcfc url(../images/sized/venue-medium.png)  no-repeat center center fixed;
+    min-height:500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .accommImage {
+    width: 200px;
+  }
+  .map-canvas {
+    height: 400px;
+  }
+  .slideno {
+    font-size:30px;
+    padding-top: 50px;
+  }
+  .rsvp iframe {
+    width: 200px;
+  }
+}
+
+@media (min-width: 500px){
+  .accommImage {
+    width: 300px;
+  }
+  .slideno {
+    font-size:60px;
+    padding-top: 40px;
+  }
+  .rsvp iframe {
+    width: 400px;
+  }
+}
+
+@media (min-width: 800px) {
+  .home{
+    position: relative;
+    background-image:url(../images/sized/fancy-large.jpg);
+    min-height:800px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .venue{
+    /*background:url(../images/sized/castle-large.jpg)  no-repeat center center fixed;*/
+    background:url(../images/sized/venue-large.png)  no-repeat center center fixed;
+    min-height:1000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .rsvp{
+    position: relative;
+    background:url(../images/sized/justMarried-large.jpg)  no-repeat center center fixed;
+    min-height:800px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .modal-dialog {
+    width:800px;
+  }
+  .accommImage {
+    width: 350px;
+  }
+  .map-canvas {
+    height: 600px;
+  }
+  .slideno {
+    font-size:100px;
+    padding-top: 20px;
+  }
+  .rsvp iframe {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1100px) {
+
+  .modal-dialog {
+    width:1000px;
+  }
+  .map-canvas {
+    height: 600px;
+  }
+}
+@font-face {
+  font-family: 'Edwardian Script ITC';
+  src: url('edwardian_script_itc.eot');
+  src: url('edwardian_script_itc.eot?#iefix') format('embedded-opentype'), url('edwardian_script_itc.svg#Edwardian Script ITC') format('svg'), url('edwardian_script_itc.woff') format('woff'), url('edwardian_script_itc.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
