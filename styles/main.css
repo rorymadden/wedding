@@ -81,9 +81,14 @@ body {
   font-family: 'Helvetica';
 }
 
-.home h1.castleHeading {
+h1.castleHeading {
   font-family: 'Edwardian Script ITC';
   font-size: 60px;
+  /*padding-top:40px;*/
+}
+h3.castleHeading {
+  font-family: 'Edwardian Script ITC';
+  font-size: 40px;
   /*padding-top:40px;*/
 }
 /******************************
